@@ -20,7 +20,7 @@ USER_STATE = {}  # To track user interactions
 PROJECT_ID = os.getenv("PROJECT_ID")
 LOCATION = os.getenv("PROCESSOR_LOCATION")
 PROCESSOR_ID = os.getenv("PROCESSOR_ID")  # Use processor ID instead of name
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\KULUS_JP\AppData\Roaming\gcloud\application_default_credentials.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:.....\application_default_credentials.json" #Location of your credential.json file
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
